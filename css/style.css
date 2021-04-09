@@ -54,7 +54,7 @@ img {
 }
 
 .menu li {
-    color: lightgray;
+    color: gray;
     display: inline-block;
     padding-left: 20px;
     vertical-align: -10px;
@@ -68,7 +68,7 @@ img {
 
 .menu a {
     text-decoration: none;
-    color: lightgray;
+    color: grey;
 }
 
 .menu a:hover {
@@ -77,15 +77,21 @@ img {
 
 /*SUBMENU*/
 .dropdown {
-    /*display: none;*/
-
-    background-color: lightseagreen;
-
+    display: none;
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
+    width: 200px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown.active {
+    display: block;
 }
 
 .dropdown .menu li {
     display: block;
+    text-align: left;
+    padding: 10px;
 }
