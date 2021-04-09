@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*bottone */
+button {
+    color: white;
+    background-color: rgb(179, 19, 179);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(179, 19, 179);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*nav*/
+.logo {
+    width: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.left-menu {
+    width: 30%;
+}
+
+.right-menu {
+    width: 60%;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    color: lightgray;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: lightgray;
+}
